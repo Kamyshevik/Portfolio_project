@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Ilya Kamyshev</title>
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<div class="contact_pages">
+
+    <div class="header">
+    <h1 class="heading">Get in touch</h1>
+    <p class="par">If you wanna get in touch, talk to me about a project collaboration or just say hi,<br>
+        fill up the awesome form below or send an email to 
+        kamyshevik@gmail.com and ~let's talk.</p>
+    </div>  
+    
+    <form
+  action="https://formspree.io/f/mzbqevpz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email" class="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message" class="email"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit" class="btn">Send</button>
+</form>
+
+<div class="header">
+    <h2 id="headerButtom">Let's get social</h2>
+    <p class="par">Follow my online fan page on Facebook and profiles on GitHub or Linkedin.</p>
+    </div> 
+
+<div class="buttonSocial">
+    <a href="https://www.facebook.com/profile.php?id=100000392296956" class="fa fa-facebook" id="facebook"> FACEBOOK</a>
+    <a href="https://www.linkedin.com/in/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%BA%D0%B0%D0%BC%D1%8B%D1%88%D0%B5%D0%B2-39659426b/" class="fa fa-linkedin" id="linkedin"> LINKEDIN</a>
+    <a href="https://github.com/" class="fa fa-github" id="github"> GITHUB</a>
+</div>
+
+<div class="box">
+  <button class="buttonAbout" id="btnAbout" style="vertical-align:middle"><span>ABOUT </span></button>
+  <button class="buttonPortfolio" style="vertical-align:middle"><span>PORTFOLIO </span></button>
+</div>
+
+<div class="scrolling-elementRight">
+  <button class="arrow right button">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+      <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "/>
+    </svg>
+  </button>
+  <p class="arrowText arrowRightText">About</p>
+  </div>
+  
+  <div class="scrolling-elementLeft">
+  <button class="arrow left button">
+    <svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+      <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>
+    </svg>  
+  </button>
+  <p class="arrowText arrowLeftText">Portfolio</p>
+  </div>
+
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
